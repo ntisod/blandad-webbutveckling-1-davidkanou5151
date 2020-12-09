@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+.col-1 {width: 8.33%;}
+
+
+header{
+    background-color: lightgreen;
+}
+nav{
+    background-color: lightskyblue;
+}
+main{
+    background-color: lightyellow;
+}
+footer{
+    background-color: lightpink;
+}
+

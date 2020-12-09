@@ -1,0 +1,27 @@
+a{
+   background-color: rgb(0, 255, 179); 
+   border: 10px solid blue;
+   border-radius: 15px;
+   padding: Spx;
+   margin: Spx; 
+}
+
+a:link{
+   text-decoration: none; 
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+    background-color: coral;
+}
+a:active{
+    border-width: Spx;
+}
+body{
+    background-color: rgb(0, 255, 179);
+    border: 10px solid blue;
+    border-radius: 15px;
+    padding: Spx;
+    margin: Spx;
+}

@@ -1,0 +1,34 @@
+ using System;
+ using System.Collections;
+ using System.Collections.Generic;
+ using System.Collections.Specialized;
+ using unityEngine;
+
+ public class spawnManager : MonoBehaviour
+{
+    public GameObject[] animalPrefabs;
+    public float spawnrangerX = 20;
+    public float spawnrangerZ = 20;
+    // Start is called before the first frame update
+    void start()
+    {
+
+    }
+
+    // Update is called once per frame 
+    void Update()
+
+        if (Input.GetKeyDown(keycode.s))
+        {
+            //Ranromly generate animal index and spawn position
+            vector3 spawnPos - new vector3(Random.Range(-spawnRangeX, spawnRangex),
+                0, spawnPosZ);
+            int animalIndex = Random.Range(0, animalPrefabs.Length);
+            Instantiate(animalPrefabs[animalIndex], spawnPos,
+            animalPrefabs[animalIndex].transform.rotation);
+
+
+        }
+}
+
+ 
