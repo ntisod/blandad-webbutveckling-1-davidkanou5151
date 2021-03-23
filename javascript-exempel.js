@@ -12,7 +12,7 @@ function changeText(){
     document.getElementById("demo").innerHTML = "Hello ladies and gentelman; ";
 }
 
-function writeTewxt(){
+function writeText(){
     var namn = document.getElementById("fnamn").value;
     document.getElementById("text").innerHTML = namn;
 }
