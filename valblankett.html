@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Val</title>
+    <style>
+        #ENGINEERING-choises{
+          display: none;
+        }
+        #Software-choises{
+          display: none;
+        }
+    </style>
+</head>
+<body>
+  <p>Valblanket</p>
+  <form>
+        <label for="fname">Förnamn</label><br>
+        <input type="text" name="fname" id="fname"><br>
+        <label for="lname">Efternamn</label><br>
+        <input type="text" id="lname"><br>
+
+        <fieldset>
+          <legend><span class="number"></span> Information</legend>
+                <label>Program:</label>
+          <input type="radio" id="BB" value="BB" name="user_choice" onclick="document.getElementById('ENGINEERING-choises').style.display='block'"><label for="BB" class="CHOICE2">ENGINEERING</label> <BR>
+            <input type="radio" id="BB" value="BB" name="user_choice" onclick="document.getElementById('Software-choises').style.display='block'"><label for="BB" class="CHOICE2">Software</label> <BR>
+        </fieldset>
+     
+        <fieldset id="ENGINEERING-choises">
+          <input type="radio" name="individuella-val" id="digital-skapande" value="digital-skapande">
+          <label for="digital-skapande">Digital skapande 2</label>
+          <input type="radio" name="valmöjlighet" id="matte-4" value="matte-4">
+          <label for="matte-4">Matematik 4</label>
+          <input type="radio" name="individuella-val" id="webbserver" value="webbserver">
+          <label for="webbserver">Webbserverprogrammering-1</label>
+      </fieldset>
+
+        
+        <fieldset id="Software-choises">
+         <input type="radio" name="individuella-val" id="eng-7" value="eng-7">
+         <label for="eng-7">Engelska 7</label>
+         <input type="radio" name="valmöjlighet" id="idrott-hälsa 2" value="idrott-hälsa 2">
+         <label for="idrott-hälsa 2">Idrott och hälsa 2</label>
+         <input type="radio" name="individuella-val" id="entreprenorskap" value="entreprenorskap">
+         <label for="entreprenorskap">Entreprenörskap</label>
+         <input type="radio" name="individuella-val" id="modersmål" value="modersmål">
+         <label for="modersmål">Modersmål</label><br>
+      </fieldset>
+
+    
+        <style>
+            legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: blue;
+}
+
+label.CHOICE2 {
+  font-weight: 300;
+  display: inline;
+}
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 14px;
+}
+    
+
+        </style>
+        
+    
+
+
+</form>
+
+
