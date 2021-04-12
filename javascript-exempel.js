@@ -16,3 +16,7 @@ function writeText(){
     var namn = document.getElementById("fnamn").value;
     document.getElementById("text").innerHTML = namn;
 }
+
+function visa_engineering(){
+    document.getElementById('ENGINEERING-choises').style.display='block';
+}
