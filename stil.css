@@ -20,15 +20,15 @@
 
 
 header{
-    background-color: lightgreen;
+    background-color: rgb(208, 144, 238);
 }
 nav{
-    background-color: lightskyblue;
+    background-color: rgb(250, 135, 169);
 }
 main{
     background-color: rgb(236, 224, 255);
 }
 footer{
-    background-color: lightpink;
+    background-color: rgb(255, 182, 237);
 }
 
