@@ -1,4 +1,11 @@
-*{
+body {
+
+    background-image: url("real.jpg");
+    background-size: cover;
+
+}*
+
+{
     box-sizing: border-box;
 }
 
@@ -17,11 +24,7 @@
 
 [Class*="col-"] 
 
-body {
 
-    background-image: url("real.jpg");
-
-}
 
 header{
     background-color: rgba(208, 144, 238, 0);
