@@ -20,16 +20,16 @@
 
 
 header{
-    background-color: rgb(208, 144, 238);
+    background-color: rgba(208, 144, 238, 0);
 }
 nav{
-    background-color: rgb(250, 135, 169);
+    background-color: rgba(250, 135, 135, 0);
 }
 main{
-    background-color: rgb(236, 224, 255);
+    background-color: rgba(255, 224, 224, 0);
 }
 footer{
-    background-color: rgb(255, 182, 237);
+    background-color: rgba(255, 182, 182, 0);
 }
 a:link {
 
