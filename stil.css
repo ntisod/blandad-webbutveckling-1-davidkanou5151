@@ -2,7 +2,6 @@ body {
 
     background-image: url("real.jpg");
     background-size: cover;
-
 }*
 
 {
@@ -31,9 +30,6 @@ header{
 }
 nav{
     background-color: rgb(250, 135, 135);
-}
-main{
-    background-color: rgb(255, 224, 224);
 }
 footer{
     background-color: rgb(255, 182, 182);
