@@ -57,7 +57,8 @@ a:hover {
 
 a:active {
 
-    color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    
     background-color: transparent;
     text-decoration: none;
 
@@ -77,7 +78,7 @@ a:active {
     cursor: pointer;
     margin: 5px;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    -webkit-text-fill-color: rgb(255, 255, 255);
     text-shadow: 0px 4px 8px black;
 
 }
