@@ -181,16 +181,16 @@ a:link{
     text-decoration: none; 
  }
  a:visited{
-     color: purple;
+     color: rgb(36, 128, 0);
  }
  a:hover{
-     background-color: rgb(147, 80, 255);
+     background-color: rgb(255, 80, 162);
  }
  a:active{
      border-width: Spx;
  }
  body{
-     background-color: rgba(0, 89, 255, 0.603);
+     background-color: rgba(255, 8, 0, 0.603);
      border: 10px solid rgb(0, 255, 191);
      border-radius: 15px;
      padding: Spx;
