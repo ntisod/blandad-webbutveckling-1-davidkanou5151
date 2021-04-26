@@ -190,8 +190,8 @@ a:link{
      border-width: Spx;
  }
  body{
-     background-color: rgba(255, 8, 0, 0.603);
-     border: 10px solid rgb(0, 255, 191);
+     background-color: rgba(255, 0, 191, 0.603);
+     border: 10px solid rgb(140, 0, 255);
      border-radius: 15px;
      padding: Spx;
      margin: Spx;
