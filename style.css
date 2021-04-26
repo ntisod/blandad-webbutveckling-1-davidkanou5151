@@ -19,8 +19,8 @@ a:active{
     border-width: Spx;
 }
 body{
-    background-color: rgb(255, 0, 128);
-    border: 10px solid rgb(153, 0, 255);
+    background-color: rgb(0, 174, 255);
+    border: 10px solid rgb(0, 255, 191);
     border-radius: 15px;
     padding: Spx;
     margin: Spx;
