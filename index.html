@@ -1,34 +1,139 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="en">
 <head>
+    <h1> David site </S> </h1>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Davids portfolio</title>
-    <link rel="stylesheet" href="stil.css">
-</head>
-<body>
-    <header>
-        <h1>Davids portfolio</h1>
-    </header>
-    <nav>
-        <button class="button" style="vertical-align:middle"><span><a href="om-mig.html">om-mig-sida</a></span></button>
-        <br>
-        <button class="button" style="vertical-align:middle"><span><a href="javascript-exempel.html">javascript</a></span></button>
-        <br>
-        <button class="button" style="vertical-align:middle"><span><a href="boxmodellen.html">boxmodellen</a></span></button>
-        <br>
-        <button class="button" style="vertical-align:middle"><span><a href="valblankett.html">valblankett</a></span></button>
-        <br>
-        <button class="button" style="vertical-align:middle"><span><a href="recept.html">recept</a></span></button>
-        <br>
+    <title>Index</title>
+    <link rel="stylesheet" href="">
     
-    </nav>
-    <main>
-        <h2>Rubrik</h2>
-        <p>Hej jag heter David Kanou och kommer från Syrien<br>Jag är en 17 årig grabb som gillar att ha det chill med alla människor runt om mig</p>
-    </main>
-    <footer>
-        Copyright (c) 2020, David Kanou <a href= "https://www.ntigymnasiet.se/sodertalje/">NTI gymnasiet Södertälje</a>
-    </footer>    
+  <style>
+    .dropbtn {
+      background-color: #3498DB;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .dropbtn:hover, .dropbtn:focus {
+      background-color: #2980B9;
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px rgba(216, 92, 92, 0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown a:hover {background-color: #ddd;}
+    
+    .show {display: block;}
+    </style>
+    </head>
+    <body>
+    
+    <div class="#home">
+      <button onclick="myFunction()" class="dropbtn">Home</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="om-mig.html">About</a>
+        <a href="index.html">My Work</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    
+    <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
+    
+
+    
+<style>
+
+    body{
+    background-image:url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/b6e0b072897469.5bf6e79950d23.gif');
+    background-size: cover;
+    
+    }
+
+    h1 {
+            font-size: 36px;
+            background: -webkit-linear-gradient(13deg, #19f0f0 14%, #06e7af 62%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-left: 450px;
+        }
+    </style>
+<nav>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+</style>
 </body>
 </html>
+
+
+
+
+
+

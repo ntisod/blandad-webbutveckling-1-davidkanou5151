@@ -8,166 +8,49 @@ a{
 
 a:link{
    text-decoration: none; 
-}
-a:visited{
-    color: purple;
-}
-a:hover{
-    background-color: rgb(147, 80, 255);
-}
-a:active{
-    border-width: Spx;
-}
-body{
-    background-color: rgba(0, 89, 255, 0.603);
-    border: 10px solid rgb(0, 255, 191);
-    border-radius: 15px;
-    padding: Spx;
-    margin: Spx;
-}
-a:link{
+   text-decoration: none;
+   text-decoration: none;
+   text-decoration: none;
+   text-decoration: none;
+   text-decoration: none;
+   text-decoration: none;
    text-decoration: none; 
-}
-a:visited{
-    color: purple;
-}
-a:hover{
-    background-color: rgb(147, 80, 255);
-}
-a:active{
-    border-width: Spx;
-}
-body{
-    background-color: rgba(0, 89, 255, 0.603);
-    border: 10px solid rgb(0, 255, 191);
-    border-radius: 15px;
-    padding: Spx;
-    margin: Spx;
-}
-a:link{
-    text-decoration: none; 
- }
- a:visited{
-     color: purple;
- }
- a:hover{
-     background-color: rgb(147, 80, 255);
- }
- a:active{
-     border-width: Spx;
- }
- body{
-     background-color: rgba(0, 89, 255, 0.603);
-     border: 10px solid rgb(0, 255, 191);
-     border-radius: 15px;
-     padding: Spx;
-     margin: Spx;
- }
- a:link{
-    text-decoration: none; 
- }
- a:visited{
-     color: purple;
- }
- a:hover{
-     background-color: rgb(147, 80, 255);
- }
- a:active{
-     border-width: Spx;
- }
- body{
-     background-color: rgba(0, 89, 255, 0.603);
-     border: 10px solid rgb(0, 255, 191);
-     border-radius: 15px;
-     padding: Spx;
-     margin: Spx;
- }
- a:link{
-    text-decoration: none; 
- }
- a:visited{
-     color: purple;
- }
- a:hover{
-     background-color: rgb(147, 80, 255);
- }
- a:active{
-     border-width: Spx;
- }
- body{
-     background-color: rgba(0, 89, 255, 0.603);
-     border: 10px solid rgb(0, 255, 191);
-     border-radius: 15px;
-     padding: Spx;
-     margin: Spx;
- }
- a:link{
-    text-decoration: none; 
- }
- a:visited{
-     color: purple;
- }
- a:hover{
-     background-color: rgb(147, 80, 255);
- }
- a:active{
-     border-width: Spx;
- }
- body{
-     background-color: rgba(0, 89, 255, 0.603);
-     border: 10px solid rgb(0, 255, 191);
-     border-radius: 15px;
-     padding: Spx;
-     margin: Spx;
- }
- a:link{
-    text-decoration: none; 
- }
- a:visited{
-     color: purple;
- }
- a:hover{
-     background-color: rgb(147, 80, 255);
- }
- a:active{
-     border-width: Spx;
- }
- body{
-     background-color: rgba(0, 89, 255, 0.603);
-     border: 10px solid rgb(0, 255, 191);
-     border-radius: 15px;
-     padding: Spx;
-     margin: Spx;
- }
- a:link{
-    text-decoration: none; 
- }
- a:visited{
-     color: purple;
- }
- a:hover{
-     background-color: rgb(147, 80, 255);
- }
- a:active{
-     border-width: Spx;
- }
- body{
-     background-color: rgba(0, 89, 255, 0.603);
-     border: 10px solid rgb(0, 255, 191);
-     border-radius: 15px;
-     padding: Spx;
-     margin: Spx;
- }
-a:link{
    text-decoration: none; 
+   text-decoration: none;      
 }
 a:visited{
+    color: purple;
+    color: purple;
+    color: purple;
+    color: purple;
+    color: purple;
+    color: purple;
+    color: purple;
+    color: purple;
     color: purple;
 }
 a:hover{
     background-color: rgb(147, 80, 255);
-}
+    background-color: rgb(147, 80, 255);
+    background-color: rgb(147, 80, 255);
+    background-color: rgb(147, 80, 255);
+    background-color: rgb(147, 80, 255);
+    background-color: rgb(147, 80, 255);
+    background-color: rgb(255, 80, 162);
+    background-color: rgb(147, 80, 255);
+    background-color: rgb(147, 80, 255);
+    background-color: rgb(147, 80, 255);
+    color: rgb(36, 128, 0); 
+ }
 a:active{
+    border-width: Spx;
+    border-width: Spx;
+    border-width: Spx;
+    border-width: Spx;
+    border-width: Spx;
+    border-width: Spx;
+    border-width: Spx;
+    border-width: Spx;
     border-width: Spx;
 }
 body{
@@ -176,24 +59,54 @@ body{
     border-radius: 15px;
     padding: Spx;
     margin: Spx;
+    background-color: rgba(0, 89, 255, 0.603);
+    border: 10px solid rgb(0, 255, 191);
+    border-radius: 15px;
+    padding: Spx;
+    margin: Spx;
+    background-color: rgb(255, 0, 255);
+    border: 10px solid rgb(140, 0, 255);
+    border-radius: 15px;
+    padding: Spx;
+    margin: Spx;
+    background-color: rgba(0, 89, 255, 0.603);
+    border: 10px solid rgb(0, 255, 191);
+    border-radius: 15px;
+    padding: Spx;
+    margin: Spx;
+    background-color: rgba(0, 89, 255, 0.603);
+    border: 10px solid rgb(0, 255, 191);
+    border-radius: 15px;
+    padding: Spx;
+    margin: Spx;
+    background-color: rgba(0, 89, 255, 0.603);
+    border: 10px solid rgb(0, 255, 191);
+    border-radius: 15px;
+    padding: Spx;
+    margin: Spx;
+    background-color: rgba(0, 89, 255, 0.603);
+    border: 10px solid rgb(0, 255, 191);
+    border-radius: 15px;
+    padding: Spx;
+    margin: Spx;
+    background-color: rgba(0, 89, 255, 0.603);
+    border: 10px solid rgb(0, 255, 191);
+    border-radius: 15px;
+    padding: Spx;
+    margin: Spx;
+    background-color: rgba(0, 89, 255, 0.603);
+    border: 10px solid rgb(0, 255, 191);
+    border-radius: 15px;
+    padding: Spx;
+    margin: Spx;
+    background-color: rgba(0, 89, 255, 0.603);
+    border: 10px solid rgb(0, 255, 191);
+    border-radius: 15px;
+    padding: Spx;
+    margin: Spx;
+    background-color: rgba(0, 89, 255, 0.603);
+    border: 10px solid rgb(0, 255, 191);
+    border-radius: 15px;
+    padding: Spx;
+    margin: Spx;
 }
-a:link{
-    text-decoration: none; 
- }
- a:visited{
-     color: rgb(36, 128, 0);
- }
- a:hover{
-     background-color: rgb(255, 80, 162);
- }
- a:active{
-     border-width: Spx;
- }
- body{
-     background-color: rgb(255, 0, 255);
-     border: 10px solid rgb(140, 0, 255);
-     border-radius: 15px;
-     padding: Spx;
-     margin: Spx;
- }
-       
