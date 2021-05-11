@@ -28,6 +28,7 @@ a:visited{
     color: purple;
     color: purple;
     color: purple;
+    color: rgb(36, 128, 0); 
 }
 a:hover{
     background-color: rgb(147, 80, 255);
@@ -40,7 +41,7 @@ a:hover{
     background-color: rgb(147, 80, 255);
     background-color: rgb(147, 80, 255);
     background-color: rgb(147, 80, 255);
-    color: rgb(36, 128, 0); 
+    
  }
 a:active{
     border-width: Spx;
