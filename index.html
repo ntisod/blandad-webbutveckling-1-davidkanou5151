@@ -48,27 +48,27 @@
     .show {display: block;}
 
     ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+    }
 
-li {
-  float: left;
-}
+    li {
+     float: left;
+    }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+    li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+    }
 
-li a:hover:not(.active) {
-  background-color: #111;
-}
+    li a:hover:not(.active) {
+     background-color: #111;
+    }
 
 .active {
   background-color: #4CAF50;
@@ -87,7 +87,7 @@ body{
 }
 
 
-    h1 {
+        h1 {
             font-size: 36px;
             background: -webkit-linear-gradient(13deg, #19f0f0 14%, #06e7af 62%);
             -webkit-background-clip: text;
@@ -206,7 +206,7 @@ function drawHand(ctx, pos, length, width) {
     ctx.beginPath();
     ctx.lineWidth = width;
     ctx.lineCap = "round";
-    ctx.moveTo(0,0);
+    ctx.moveTo(50,50);
     ctx.rotate(pos);
     ctx.lineTo(0, -length);
     ctx.stroke();
