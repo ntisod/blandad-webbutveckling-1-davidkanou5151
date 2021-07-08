@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Val</title>
+    <!--This site was made by Magd Al-Lashi and David Kanou-->
+
+
+<body style="background-color:#3d3f41">
+   
+<body>
+    
+    <form>
+        <p>Valblanket inför årskurs 3</p>
+
+        <label for="fname">Förnamn:*</label><br>
+        <input type="text" name="fname" id="fname"><br>
+        <br>
+        <label for="lname">Efternamn:*</label><br>
+        <input type="text" id="lname"><br>
+        <br>
+        <label for="lname">E-postadress*</label>
+        <br>
+        <input type="text" id="lname">
+        <br>
+        <br>
+        
+
+        
+
+        <fieldset>
+
+                <legend><span class="number">Val:</span></legend>
+                <h2>_____________________________________</h2>
+                <h2> Program: </h2>
+                 <!--Koderna här låter dig välja mellan Engineering och Software-->
+                
+          <input type="radio" id="BB" value="BB" name="user_choice" onclick="showEngineering()"><label for="BB" class="CHOICE2">Engineering</label> <BR>
+            <br>
+          <input type="radio" id="BB" value="BB" name="user_choice" onclick="showSoftware()"><label for="BB" class="CHOICE2">Software</label><br> 
+          <br>
+
+        </fieldset>
+
+        <!--Koden här hjälper dig välja från allmänna val-->
+
+        <fieldset id="General-choises">
+        <h1>Allmänna val</h1>
+        <br>
+          <input type="radio" name="individuella-val1" id="digital-skapande" value="digital-skapande">
+          <label for="digital-skapande">Engelska 7</label>
+          <br>
+          <input type="radio" name="valmöjlighet" id="idrott" value="idrott">
+          <label for="idrott">Idrott och hälsa 2</label>
+          <br>
+          <input type="radio" name="individuella-val2" id="entreprenorskap" value="entreprenorskap">
+          <label for="entreprenorskap">Entreprenörskap</label>
+          <br>
+          <input type="radio" name="individuella-val3" id="modersmal" value="modersmal">
+          <label for="modersmal">Modersmål (Nedan skriver du språket)*</label><br>
+          <input type="text" name="fname" id="fname"><br>
+        </fieldset>
+         <!--Koden här hjälper dig välja från Engineering-->
+        <fieldset id="Engineering-choises">
+         <h1>Val för Engineering</h1>
+         <br>
+         <input type="radio" name="individuella-val4" id="digitalskapande" value="digitalskapande">
+         <label for="digitalskapande">Digital skapande 1</label>
+         <br>
+         <input type="radio" name="individuella-val5" id="matte-5" value="matte-5">
+         <label for="matte-5">Matematik 5</label>
+         <br>
+         <input type="radio" name="individuella-val6" id="webbserver" value="webbserver">
+         <label for="webbserver">Webbserverprogrammering 1</label>
+        </fieldset>
+         <!--Koden här hjälper dig välja från Software-->
+         <fieldset id="Software-choises">
+         <h1>Val för Software</h1>
+         <br>
+         <input type="radio" name="individuella-val7" id="digital" value="digital">
+         <label for="digital">Digital skapande 2</label>
+         <br>
+         <input type="radio" name="individuella-val8" id="fysik" value="fysik">
+         <label for="fysik">Fysik 2</label>
+         <br>
+         <input type="radio" name="individuella-val9" id="matte-4" value="matte-4">
+         <label for="matte-4">Matematik 4</label>
+         </fieldset>
+
+        <!--Skicka in button-->
+
+        <button type="button" onclick="alert('Tack för ditt val, Lycka Till!')">Skicka In!</button>
+    
+        
+ <!--Stylesheet-->
+ <style>
+form {
+max-width: 290px;
+margin: 10px auto;
+padding: 10px 20px;
+background: #f3f7f8;
+border-radius: 8px;
+}
+
+form{
+max-width: 430px;
+
+}
+
+
+fieldset {
+margin-bottom: 30px;
+border: none;
+}
+
+
+  #Engineering-choises{
+            display: none;
+        }
+        #Software-choises{
+            display: none;
+        }
+        #General-choises{
+            display: none;
+        }
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+
+
+
+label {
+  font-size: large;
+  margin-bottom: 15px;
+  color: rgb(0, 0, 0);
+  
+}
+
+
+.p2 {
+  display: block;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+}
+
+label.CHOICE2 {
+  font-weight: 300;
+  display: inline;
+  
+  
+  font-size: 25px;
+}
+h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+p {
+  font-size: 40px;
+  margin-bottom: 10px;
+  
+}
+    
+
+ </style>
+        
+
+        <!--Script för att hjälpa med valet (den tar bort olika fieldsets)-->
+     <script>
+            function showEngineering() {
+              document.getElementById("Engineering-choises").style.display='block';
+              document.getElementById("Software-choises").style.display='none';
+              document.getElementById("General-choises").style.display='block';
+                
+            }
+        
+     
+          function showSoftware() {
+              document.getElementById("Software-choises").style.display='block';
+              document.getElementById("Engineering-choises").style.display='none';
+              document.getElementById("General-choises").style.display='block';
+                
+            }
+          
+     
+         function showGeneral() {
+              document.getElementById("General-choises").style.display='block';
+              document.getElementById("Engineering-choises").style.display='none';
+              document.getElementById("Software-choises").style.display='none';
+              
+              
+            }
+        </script>
+<br>
+<br>
+
+<button class="button" style="vertical-align:middle"><span><a href="mywork.html">Back</a></span></button>
+ </form>
+</body>
